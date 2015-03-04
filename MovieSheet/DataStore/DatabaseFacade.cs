@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using Raven.Client.Linq;
 
 namespace DataStore
 {
@@ -22,6 +24,14 @@ namespace DataStore
 					documentSession.Store(movie);
 				}
 				documentSession.SaveChanges();
+			}
+		}
+
+		public static List<Movie> GetMovies()
+		{
+			using (var documentSession = RavenDbConfig.Store.OpenSession())
+			{
+				return documentSession.Query<Movie>().ToList();
 			}
 		}
 	}

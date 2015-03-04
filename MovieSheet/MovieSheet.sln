@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseList", "ParseList\Pars
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore", "DataStore\DataStore.csproj", "{155C3E5C-2138-48F2-9158-BE76FD61C41E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteToGoogleSheet", "WriteToGoogleSheet\WriteToGoogleSheet.csproj", "{EE9D3468-51B0-44F7-878F-619260E91D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{155C3E5C-2138-48F2-9158-BE76FD61C41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155C3E5C-2138-48F2-9158-BE76FD61C41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155C3E5C-2138-48F2-9158-BE76FD61C41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9D3468-51B0-44F7-878F-619260E91D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9D3468-51B0-44F7-878F-619260E91D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9D3468-51B0-44F7-878F-619260E91D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9D3468-51B0-44F7-878F-619260E91D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
