@@ -44,8 +44,10 @@
   <ItemGroup>
     <Compile Include="Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RavenDbConfig.cs" />
     <Compile Include="DatabaseFacade.cs" />
+    <Compile Include="RavenDbConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config">
